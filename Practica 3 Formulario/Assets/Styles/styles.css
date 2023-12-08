@@ -1,0 +1,87 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+#divGeneral{
+    /*background-color: aqua;*/
+    width: 100%;
+    height: 100%;
+    padding: .5%;
+}
+#divCabecera{
+    background-color: rgb(134, 76, 22);
+    width: 99%;
+    height: 24%;
+}
+#divCuerpo{
+    background-color: gainsboro;
+    width: 99%;
+    height: 59%;
+}
+#divFooter{
+    background-color: black;
+    width: 99%;
+    height: 14%;
+}
+#dcIzquierda{
+    float: left;
+    width: 70%;
+    height: 100%;
+    background-color:rgb(134, 76, 22);
+    text-align: center;
+}
+#dcIzquierda div{
+    height: 90%;
+    width: fit-content;
+    background-color: rgb(134, 76, 22);
+}
+#dcIzquierda img{
+    width: 100%;
+    height: 90%;
+    float: left;
+}
+#dcIzquierda span{
+    font-size: xx-large;
+    text-align: center;
+}
+#dcDerecha{
+    float: right;
+    width: 28%;
+    height: 100%;
+    text-align: center;
+    background-color: bisque;
+}
+#dcDerecha img{
+    text-align: center;
+    width: 40%;
+    height: 50%;
+}
+.numeros{
+    width: 40px;
+    min-width: 30px;
+    max-width: 100px;
+}
+#datosPersonales{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(0, 140, 255);
+}
+#referencias{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(0, 30, 255);
+}
+#historialMascotas{
+    width: 100%;
+    height: fit-content;
+    background-color: gold;
+}
+#razonesAdoptar{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+}
+#Finaltext {
+    text-align: center;
+}
